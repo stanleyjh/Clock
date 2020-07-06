@@ -1,2 +1,2 @@
 # Clock
-A clock using HTML/CSS/JS
+A clock that was creating using HTML/CSS/JS.
