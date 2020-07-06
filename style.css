@@ -1,0 +1,72 @@
+html {
+  background-image: url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.blur {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* adds blur to the area behind the element. */
+  backdrop-filter: blur(4px);
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 6vh;
+  text-shadow: 2pt 2pt #000;
+}
+
+/* clock */
+.container {
+  display: block;
+  margin: auto;
+}
+
+/* ring */
+.outer-ring {
+  stroke: #000;
+  stroke-width: 29px;
+  fill: transparent;
+}
+
+.ring {
+  stroke: #fff;
+  stroke-width: 25px;
+  fill: transparent;
+}
+
+/* numbers */
+text {
+  font-size: 45px;
+  fill: #fff;
+  text-shadow: 2pt 2pt #000;
+}
+
+/* lines */
+line {
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-width: 10px;
+  transition: 1s;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+  transform-origin: 50% 50%;
+}
+
+.sec {
+  stroke: red;
+}
+
+/* center dot */
+.outer-dot {
+  fill: #000;
+}
+
+.dot {
+  fill: #fff;
+}
