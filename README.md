@@ -1,2 +1,3 @@
 # Clock
-A clock that was creating using HTML/CSS/JS.
+
+Created using HTML, CSS, and JS. 
